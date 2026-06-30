@@ -1,0 +1,1066 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="google-site-verification" content="d487e912a91a3b13" />
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sourav Howladar - Flutter Developer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --primary: #2196F3;
+            --secondary: #1976D2;
+            --accent: #FFC107;
+            --dark: #212121;
+            --light: #f5f5f5;
+            --text: #333;
+            --text-light: #666;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: var(--text);
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+            color: white;
+            padding: 80px 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"><path fill="%23ffffff" fill-opacity="0.1" d="M0,0 Q300,60 600,30 T1200,0 L1200,120 L0,120 Z"></path></svg>') bottom;
+            background-size: cover;
+        }
+
+        header .container {
+            position: relative;
+            z-index: 1;
+        }
+
+        .profile-image {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            border: 5px solid white;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+            margin: 0 auto 30px;
+            display: block;
+            object-fit: cover;
+            animation: fadeIn 1.2s;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            animation: fadeInDown 1s;
+        }
+
+        .subtitle {
+            font-size: 1.5em;
+            margin-bottom: 20px;
+            opacity: 0.9;
+            animation: fadeInUp 1s;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            font-size: 0.95em;
+            animation: fadeIn 1.5s;
+        }
+
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            transition: opacity 0.3s;
+        }
+
+        .contact-info a:hover {
+            opacity: 0.8;
+        }
+
+        /* Navigation */
+        nav {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 20px 0;
+            flex-wrap: wrap;
+        }
+
+        nav li {
+            margin: 0 20px;
+        }
+
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+            font-weight: 600;
+            transition: color 0.3s;
+            padding: 5px 10px;
+        }
+
+        nav a:hover {
+            color: var(--primary);
+        }
+
+        /* Section Styles */
+        section {
+            padding: 60px 0;
+        }
+
+        section:nth-child(even) {
+            background: var(--light);
+        }
+
+        h2 {
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: center;
+            color: var(--dark);
+            position: relative;
+            padding-bottom: 15px;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 4px;
+            background: var(--primary);
+            border-radius: 2px;
+        }
+
+        /* About Section */
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.1em;
+            line-height: 1.8;
+            color: var(--text-light);
+        }
+
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-number {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: var(--primary);
+            margin-bottom: 10px;
+        }
+
+        /* Skills Section */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .skill-category {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .skill-category h3 {
+            color: var(--primary);
+            margin-bottom: 20px;
+            font-size: 1.3em;
+        }
+
+        .skill-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .skill-tag {
+            background: var(--light);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            color: var(--text);
+            border: 2px solid transparent;
+            transition: all 0.3s;
+        }
+
+        .skill-tag:hover {
+            border-color: var(--primary);
+            background: white;
+        }
+
+        /* Projects Section */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .project-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .project-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+
+        .project-header {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: white;
+            padding: 20px;
+            min-height: 100px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .project-header h3 {
+            font-size: 1.5em;
+            text-align: center;
+        }
+
+        .project-body {
+            padding: 25px;
+        }
+
+        .project-description {
+            color: var(--text-light);
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+
+        .project-tech {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 15px;
+        }
+
+        .tech-badge {
+            background: var(--primary);
+            color: white;
+            padding: 5px 12px;
+            border-radius: 15px;
+            font-size: 0.85em;
+        }
+
+        .project-links {
+            margin-top: 20px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .project-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background 0.3s;
+            font-size: 0.9em;
+            cursor: pointer;
+        }
+
+        .project-link:hover {
+            background: var(--secondary);
+        }
+
+        /* Experience Section */
+        .timeline {
+            position: relative;
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 20px 0;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 4px;
+            height: 100%;
+            background: var(--primary);
+        }
+
+        .timeline-item {
+            margin-bottom: 50px;
+            position: relative;
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-left: 0;
+            margin-right: auto;
+            text-align: right;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: auto;
+            margin-right: 0;
+        }
+
+        .timeline-content {
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            width: 45%;
+            position: relative;
+        }
+
+        .timeline-dot {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 20px;
+            height: 20px;
+            background: var(--accent);
+            border: 4px solid white;
+            border-radius: 50%;
+            box-shadow: 0 0 0 4px var(--primary);
+            z-index: 1;
+        }
+
+        .timeline-date {
+            display: inline-block;
+            background: var(--primary);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.85em;
+            margin-bottom: 10px;
+        }
+
+        .timeline-title {
+            font-size: 1.3em;
+            color: var(--dark);
+            margin-bottom: 5px;
+        }
+
+        .timeline-company {
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .timeline-description {
+            color: var(--text-light);
+            line-height: 1.6;
+        }
+
+        /* Contact Section */
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .contact-card {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .contact-icon {
+            font-size: 2.5em;
+            color: var(--primary);
+            margin-bottom: 15px;
+        }
+
+        .contact-card h3 {
+            margin-bottom: 10px;
+            color: var(--dark);
+        }
+
+        .contact-card a {
+            color: var(--primary);
+            text-decoration: none;
+            word-break: break-all;
+        }
+
+        /* Footer */
+        footer {
+            background: var(--dark);
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        /* Modal Styles */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.5);
+            animation: fadeIn 0.3s;
+        }
+
+        .modal-content {
+            background-color: white;
+            margin: 15% auto;
+            padding: 30px;
+            border-radius: 10px;
+            width: 90%;
+            max-width: 500px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+            animation: fadeInDown 0.3s;
+        }
+
+        .modal-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .modal-header h3 {
+            color: var(--dark);
+            font-size: 1.5em;
+        }
+
+        .close-modal {
+            color: #aaa;
+            font-size: 28px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: color 0.3s;
+        }
+
+        .close-modal:hover {
+            color: var(--dark);
+        }
+
+        .modal-body {
+            margin-bottom: 20px;
+        }
+
+        .modal-message {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            color: #856404;
+        }
+
+        .modal-links {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .modal-link {
+            display: flex;
+            align-items: center;
+            padding: 15px;
+            background: var(--light);
+            border-radius: 8px;
+            text-decoration: none;
+            color: var(--text);
+            transition: all 0.3s;
+            border: 2px solid transparent;
+        }
+
+        .modal-link:hover {
+            background: white;
+            border-color: var(--primary);
+        }
+
+        .modal-link svg {
+            width: 24px;
+            height: 24px;
+            margin-right: 15px;
+            fill: var(--primary);
+        }
+
+        .modal-link-text {
+            flex: 1;
+        }
+
+        .modal-link-title {
+            font-weight: 600;
+            color: var(--dark);
+            margin-bottom: 3px;
+        }
+
+        .modal-link-url {
+            font-size: 0.85em;
+            color: var(--text-light);
+        }
+
+        /* Animations */
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .profile-image {
+                width: 140px;
+                height: 140px;
+            }
+
+            h1 {
+                font-size: 2em;
+            }
+
+            .subtitle {
+                font-size: 1.2em;
+            }
+
+            h2 {
+                font-size: 2em;
+            }
+
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            nav li {
+                margin: 10px 0;
+            }
+
+            .timeline::before {
+                left: 20px;
+            }
+
+            .timeline-content {
+                width: calc(100% - 80px);
+                margin-left: 60px !important;
+                text-align: left !important;
+            }
+
+            .timeline-dot {
+                left: 20px;
+            }
+
+            .modal-content {
+                margin: 30% auto;
+                padding: 20px;
+            }
+
+            .modal-header h3 {
+                font-size: 1.2em;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="profile.png" alt="Sourav Howladar" class="profile-image">
+            <h1>Sourav Howladar</h1>
+            <p class="subtitle">Senior Flutter Developer | Cross-Platform Expert</p>
+            <div class="contact-info">
+                <a href="mailto:hawladarshuvo@gmail.com">✉ hawladarshuvo@gmail.com</a>
+                <a href="tel:+8801611555964">📱 +880 1611 555964</a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>Experienced Flutter Developer with 5.5+ years in software engineering, specializing in building
+                    high-performance cross-platform applications for iOS, Android, and Web. Proven expertise in AI/ML
+                    integration, state management, and delivering scalable solutions that serve millions of users across
+                    8 countries.</p>
+            </div>
+            <div class="stats">
+                <div class="stat-card">
+                    <div class="stat-number">5.5+</div>
+                    <div>Years Experience</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">8</div>
+                    <div>Countries Served</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">15+</div>
+                    <div>Projects Delivered</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-number">3</div>
+                    <div>Published Apps</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2>Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Mobile Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Flutter</span>
+                        <span class="skill-tag">Dart</span>
+                        <span class="skill-tag">Kotlin</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Swift</span>
+                        <span class="skill-tag">Android SDK</span>
+                        <span class="skill-tag">iOS Development</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>State Management</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Bloc</span>
+                        <span class="skill-tag">Provider</span>
+                        <span class="skill-tag">GetX</span>
+                        <span class="skill-tag">Riverpod</span>
+                        <span class="skill-tag">MVVM Pattern</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & APIs</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Firebase</span>
+                        <span class="skill-tag">REST API</span>
+                        <span class="skill-tag">Python Flask</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">Laravel</span>
+                        <span class="skill-tag">OpenAI API</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>AI/ML Integration</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">TensorFlow Lite</span>
+                        <span class="skill-tag">OpenAI Integration</span>
+                        <span class="skill-tag">Image Recognition</span>
+                        <span class="skill-tag">AI Chatbots</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Tools & DevOps</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">CI/CD</span>
+                        <span class="skill-tag">Play Console</span>
+                        <span class="skill-tag">App Store</span>
+                        <span class="skill-tag">Windows Server</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Additional Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">SQLite</span>
+                        <span class="skill-tag">Room DB</span>
+                        <span class="skill-tag">Google Maps API</span>
+                        <span class="skill-tag">Payment Integration</span>
+                        <span class="skill-tag">Real-time Tracking</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Grozziie Ecosystem</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            Comprehensive printer utility suite serving 8 countries with mobile apps (iOS/Android),
+                            desktop applications (Windows/MacOS), e-commerce platform, and AI-powered customer support
+                            chatbot using OpenAI API.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="tech-badge">Python</span>
+                            <span class="tech-badge">OpenAI</span>
+                            <span class="tech-badge">Firebase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://apps.apple.com/us/app/grozziie/id6476171035" class="project-link"
+                                target="_blank">iOS App</a>
+                            <a href="https://play.google.com/store/apps/details?id=com.grozziie.printer&hl=en_US"
+                                class="project-link" target="_blank">Android App</a>
+                            <a href="https://grozziie.zjweiting.com/" class="project-link" target="_blank">Support
+                                Portal</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Attendance Machine System</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            AI-powered attendance system with object recognition for card detection, time data
+                            extraction, automatic salary calculation, and comprehensive employee management features.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">TensorFlow Lite</span>
+                            <span class="tech-badge">Flutter</span>
+                            <span class="tech-badge">Image Recognition</span>
+                            <span class="tech-badge">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Dxmart E-Commerce</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            Full-featured e-commerce application with Material Design, implementing Bloc and Provider
+                            for state management, integrated with Django REST API backend.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="tech-badge">Bloc</span>
+                            <span class="tech-badge">Provider</span>
+                            <span class="tech-badge">Django</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="javascript:void(0)" onclick="openModal('dxmart')" class="project-link">View on play store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Employee Tracking System</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            Real-time employee tracking solution with salary management, leave management, Google Maps
+                            integration, and background services. Uses GetX and Provider for state management.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="tech-badge">GetX</span>
+                            <span class="tech-badge">Google Maps</span>
+                            <span class="tech-badge">Laravel API</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="javascript:void(0)" onclick="openModal('tracking')" class="project-link">View on play store</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Tourmate</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            Travel companion app featuring event management, expense tracking, moment capturing, 7-day
+                            weather forecasting, and location services to find nearby restaurants, hospitals, and ATMs.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="tech-badge">Google Maps API</span>
+                            <span class="tech-badge">Weather API</span>
+                            <span class="tech-badge">Firebase</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3>Movie Viewer Platform</h3>
+                    </div>
+                    <div class="project-body">
+                        <p class="project-description">
+                            Movie browsing application with categorized listings, dual admin and user panels, full CRUD
+                            operations, and interactive comment and rating system.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-badge">Flutter</span>
+                            <span class="tech-badge">Firebase</span>
+                            <span class="tech-badge">MVVM</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Feb 2023 - Present (2.9 years)</span>
+                        <h3 class="timeline-title">Software Engineer</h3>
+                        <p class="timeline-company">THT-Space Electrical Company Ltd (Multinational)</p>
+                        <p class="timeline-description">
+                            Leading development of cross-platform utility applications for desktop, iOS, and Android.
+                            Implemented AI-powered customer support system serving 8 countries. Specialized in API
+                            implementation, Flutter development, and Python programming for backend services.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Oct 2021 - Jan 2023 (1.2 years)</span>
+                        <h3 class="timeline-title">Software Engineer</h3>
+                        <p class="timeline-company">SEBL Distribution Ltd (Xiaomi Distributor Bangladesh)</p>
+                        <p class="timeline-description">
+                            Developed and maintained mobile applications for Bangladesh's leading Xiaomi distributor.
+                            Focused on mobile app development, testing, and creating efficient solutions for end-user
+                            requirements.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Jan 2020 - Sep 2021 (1.7 years)</span>
+                        <h3 class="timeline-title">Web & Android Developer</h3>
+                        <p class="timeline-company">Ebexsoft</p>
+                        <p class="timeline-description">
+                            Designed and developed mobile and web applications, created clean and efficient code,
+                            integrated third-party components, and deployed production-ready applications.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <span class="timeline-date">Apr 2019 - Aug 2019 (4 months)</span>
+                        <h3 class="timeline-title">Software Development Intern</h3>
+                        <p class="timeline-company">Shiny Gelem Software</p>
+                        <p class="timeline-description">
+                            Learned PHP and Laravel framework, participated in CRUD operations, UI design with
+                            Bootstrap, HTML and CSS. Built foundation for full-stack development career.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="contact">
+    <div class="container">
+        <h2>Get In Touch</h2>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <div class="contact-icon">📧</div>
+                <h3>Email</h3>
+                <a href="mailto:hawladarshuvo@gmail.com">hawladarshuvo@gmail.com</a>
+            </div>
+            <div class="contact-card">
+                <div class="contact-icon">🔗</div>
+                <h3>LinkedIn</h3>
+                <a href="https://www.linkedin.com/in/shuvo-hawladar-248309220/" target="_blank">shuvo-hawladar</a>
+            </div>
+
+            <div class="contact-card">
+                <div class="contact-icon">🐙</div>
+                <h3>GitHub</h3>
+                <a href="https://github.com/souravshuvo" target="_blank">souravshuvo</a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2026 Sourav Howladar. All rights reserved.</p>
+        <p style="margin-top: 10px; opacity: 0.8;">Flutter Developer | Cross-Platform Expert | AI Integration
+            Specialist</p>
+    </div>
+</footer>
+
+<!-- Modal -->
+<div id="projectModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h3 id="modalTitle">View Project</h3>
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+        </div>
+        <div class="modal-body">
+            <div class="modal-message">
+                <strong>Note:</strong> Play Store listing is currently unavailable. View the source code on GitHub instead.
+            </div>
+            <div class="modal-links" id="modalLinks">
+                <!-- Links will be inserted here dynamically -->
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    const projectData = {
+        dxmart: {
+            title: 'Dxmart E-Commerce',
+            github: 'https://github.com/souravshuvo/dxmart_app'
+        },
+        tracking: {
+            title: 'Employee Tracking System',
+            github: 'https://github.com/souravshuvo/Tracking-System'
+        }
+    };
+
+    function openModal(projectKey) {
+        const project = projectData[projectKey];
+        const modal = document.getElementById('projectModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalLinks = document.getElementById('modalLinks');
+
+        modalTitle.textContent = project.title;
+        
+        modalLinks.innerHTML = `
+            <a href="${project.github}" class="modal-link" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+                </svg>
+                <div class="modal-link-text">
+                    <div class="modal-link-title">View on GitHub</div>
+                    <div class="modal-link-url">${project.github}</div>
+                </div>
+            </a>
+        `;
+
+        modal.style.display = 'block';
+    }
+
+    function closeModal() {
+        document.getElementById('projectModal').style.display = 'none';
+    }
+
+    window.onclick = function(event) {
+        const modal = document.getElementById('projectModal');
+        if (event.target === modal) {
+            closeModal();
+        }
+    }
+</script>
