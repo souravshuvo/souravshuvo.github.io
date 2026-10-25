@@ -1,166 +1,184 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="referrer" content="no-referrer">
-    <meta name="description" content="Privacy Policy for Block Grove, provided by Childhood Technology Ltd. Learn about local saves, advertising, support messages and your privacy choices.">
     <meta name="color-scheme" content="light">
-    <title>Block Grove Privacy Policy | Childhood Technology Ltd.</title>
+    <meta name="description" content="Privacy Policy for Card Haven by Childhood Technology Ltd. Learn about local game saves, advertising, support messages and your privacy choices.">
+    <meta name="theme-color" content="#123c36">
+    <title>Privacy Policy | Card Haven · Childhood Technology Ltd.</title>
     <style>
-        :root { color-scheme: light; --forest: #173f35; --ink: #243d34; --muted: #50665b; --paper: #faf9f3; --line: #dce3d8; }
-        * { box-sizing: border-box; }
-        html { scroll-padding-top: 24px; }
-        body { margin: 0; background: var(--paper); color: var(--ink); font: 17px/1.75 system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; overflow-wrap: anywhere; }
-        header { background: var(--forest); color: #f4ebcf; padding: 52px 24px 42px; }
-        .wrap { width: min(100%, 860px); margin-inline: auto; }
-        .brand { margin: 0 0 10px; color: #9de5b8; font-weight: 650; letter-spacing: .08em; font-size: .8rem; text-transform: uppercase; }
-        h1 { margin: 0 0 12px; font-size: clamp(2.1rem, 7vw, 3.25rem); line-height: 1.15; letter-spacing: -.035em; }
-        header p { margin: 6px 0; }
-        .date { color: #d3dfcb; font-size: .94rem; }
-        main { padding: 32px 24px 48px; }
-        a { color: #235f42; text-decoration-thickness: 1px; text-underline-offset: 3px; }
-        a:hover { text-decoration-thickness: 2px; }
-        a:focus-visible { outline: 3px solid #9b621b; outline-offset: 4px; border-radius: 2px; }
-        h2 { margin: 0 0 12px; font-size: 1.3rem; line-height: 1.4; color: var(--forest); }
-        p { margin: 0 0 15px; }
-        section { margin-top: 30px; padding-top: 28px; border-top: 1px solid var(--line); }
-        ul { margin: 0 0 16px; padding-left: 24px; }
-        li { margin-bottom: 8px; }
-        nav { padding: 22px; background: #eef2e8; border: 1px solid var(--line); border-radius: 12px; margin-top: 26px; }
-        nav ul { display: grid; grid-template-columns: 1fr 1fr; gap: 8px 24px; list-style: none; padding: 0; margin: 0; }
-        nav li { margin: 0; }
-        .contact { padding: 22px; background: #eef2e8; border-radius: 12px; }
-        address { font-style: normal; }
-        footer { padding: 24px; border-top: 1px solid var(--line); color: var(--muted); font-size: .9rem; }
-        .skip { position: absolute; top: 8px; left: 8px; padding: 8px 14px; background: white; transform: translateY(-180%); }
-        .skip:focus { transform: none; }
-        @media (max-width: 560px) { header { padding: 36px 20px 30px; } main { padding: 26px 20px 36px; } nav ul { grid-template-columns: 1fr; } }
-        @media print { body { background: white; color: black; font-size: 11pt; } header { background: white; color: black; padding: 0 0 20px; } .brand, .date { color: black; } main { padding: 0; } nav, .skip { display: none; } section { break-inside: avoid; } a { color: black; } }
+        :root { --pine:#123c36; --ink:#183b35; --muted:#52645e; --paper:#f5f7f2; --line:#dae3dc; --gold:#dcc08a; }
+        * { box-sizing:border-box; }
+        html { scroll-padding-top:1.5rem; }
+        body { margin:0; background:var(--paper); color:var(--ink); font-family:system-ui,-apple-system,"Segoe UI",sans-serif; font-size:1rem; line-height:1.75; }
+        a { color:#185d4e; text-underline-offset:.22em; overflow-wrap:anywhere; }
+        a:hover { text-decoration-thickness:2px; }
+        a:focus-visible { outline:3px solid #b87e26; outline-offset:4px; border-radius:2px; }
+        .skip { position:absolute; top:-6rem; left:1rem; padding:.6rem 1rem; background:white; z-index:2; }
+        .skip:focus { top:1rem; }
+        header { background:var(--pine); color:white; padding:3.8rem 1.5rem 4.7rem; }
+        .wrap { width:min(100%,800px); margin:auto; }
+        .brand { margin:0 0 1.25rem; color:var(--gold); font-size:.85rem; font-weight:700; letter-spacing:.14em; text-transform:uppercase; }
+        h1 { margin:0 0 .65rem; font-size:clamp(2.2rem,7vw,3.5rem); line-height:1.15; letter-spacing:-.035em; }
+        .intro { margin:.8rem 0; color:#e1e9e2; font-size:1.1rem; }
+        .dates { margin:1.15rem 0 0; color:var(--gold); font-size:.9rem; }
+        main { position:relative; width:min(calc(100% - 2rem),880px); margin:-2rem auto 2rem; padding:clamp(1.25rem,5vw,3rem); background:white; border:1px solid var(--line); border-radius:18px; box-shadow:0 12px 35px #123c3608; }
+        .summary { margin:0 0 2rem; padding:1.25rem; border-left:4px solid #b49050; background:#f3f6f0; border-radius:0 10px 10px 0; }
+        .summary p { margin:.3rem 0; }
+        nav { padding-bottom:1.5rem; border-bottom:1px solid var(--line); }
+        nav strong { display:block; margin-bottom:.5rem; }
+        nav ul { display:flex; flex-wrap:wrap; gap:.5rem 1.2rem; margin:0; padding:0; list-style:none; }
+        nav a { display:inline-block; padding:.3rem 0; font-size:.95rem; }
+        section { padding-top:1.5rem; }
+        h2 { margin:.4rem 0 .7rem; font-size:1.35rem; line-height:1.4; letter-spacing:-.015em; }
+        h3 { margin:1.25rem 0 .35rem; font-size:1.05rem; }
+        p { margin:.6rem 0 1rem; }
+        ul,ol { padding-left:1.4rem; }
+        li { margin:.45rem 0; }
+        .contact { margin-top:1.5rem; padding:1.5rem; background:#f3f6f0; border:1px solid var(--line); border-radius:12px; }
+        .contact p:last-child { margin-bottom:0; }
+        address { font-style:normal; }
+        footer { padding:0 1.5rem 2.5rem; color:var(--muted); font-size:.85rem; text-align:center; }
+        @media (max-width:420px) { header { padding-top:2.75rem; } main { width:calc(100% - 1rem); border-radius:12px; } nav ul { display:block; } }
+        @media print { body { background:white; color:black; font-size:10pt; } header { background:white; color:black; padding:0 0 1rem; } .brand,.intro,.dates { color:black; } main { width:100%; margin:0; padding:0; border:0; box-shadow:none; } nav,.skip { display:none; } section { break-inside:avoid; } footer { padding:1rem 0; } a { color:black; } }
     </style>
 </head>
 <body>
 <a class="skip" href="#policy">Skip to privacy policy</a>
 <header>
     <div class="wrap">
-        <p class="brand">Block Grove · Childhood Technology Ltd.</p>
+        <p class="brand">Card Haven · Childhood Technology Ltd.</p>
         <h1>Privacy Policy</h1>
-        <p>How we handle information when you play Block Grove or contact us.</p>
-        <p class="date">Effective date: <time datetime="2026-10-25">25 October 2026</time> · Last updated: <time datetime="2026-10-25">25 October 2026</time></p>
+        <p class="intro">How we handle information when you play Card Haven or contact us.</p>
+        <p class="dates">Effective date: <time datetime="2026-10-25">25 October 2026</time> · Last updated: <time datetime="2026-10-25">25 October 2026</time></p>
     </div>
 </header>
 
-<main id="policy" class="wrap">
-    <p><strong>Childhood Technology Ltd.</strong> provides Block Grove (Android package <strong>com.childhood.block</strong>). In this policy, “we,” “us” and “our” refer to Childhood Technology Ltd. Questions and privacy requests can be sent to <a href="mailto:shuvo4727@gmail.com">shuvo4727@gmail.com</a>.</p>
-    <p>You can play the core puzzle offline without creating an account. Game progress is stored on your device. Advertising services and support messages involve third-party processing, as explained below.</p>
+<main id="policy">
+    <aside class="summary" aria-label="Privacy at a glance">
+        <p><strong>Your game progress stays on your device.</strong> Card Haven does not require an account.</p>
+        <p>Advertising services process certain device and usage information. Support messages are sent only when you choose to send them.</p>
+        <p>Privacy contact: <a href="mailto:shuvo4727@gmail.com">shuvo4727@gmail.com</a></p>
+    </aside>
 
-    <nav aria-label="Privacy policy contents">
+    <nav aria-label="Policy sections">
+        <strong>On this page</strong>
         <ul>
-            <li><a href="#information">1. Information handled</a></li>
-            <li><a href="#purposes">2. Why information is used</a></li>
-            <li><a href="#advertising">3. Advertising and choices</a></li>
-            <li><a href="#sharing">4. Sharing and service providers</a></li>
-            <li><a href="#retention">5. Retention and deletion</a></li>
-            <li><a href="#rights">6. Your privacy rights</a></li>
-            <li><a href="#children">7. Children’s privacy</a></li>
-            <li><a href="#security">8. Security and international processing</a></li>
-            <li><a href="#links">9. This page and external links</a></li>
-            <li><a href="#changes">10. Policy updates</a></li>
-            <li><a href="#contact">11. Contact us</a></li>
+            <li><a href="#information">Information we handle</a></li>
+            <li><a href="#advertising">Advertising &amp; choices</a></li>
+            <li><a href="#sharing">Sharing</a></li>
+            <li><a href="#retention">Retention &amp; deletion</a></li>
+            <li><a href="#rights">Your rights</a></li>
+            <li><a href="#contact">Contact us</a></li>
         </ul>
     </nav>
 
-    <section id="information" aria-labelledby="information-title">
-        <h2 id="information-title">1. Information handled</h2>
-        <p><strong>Information stored on your device.</strong> The game saves your current puzzle, tutorial state, scores, session statistics, Garden progress, quests, petals, unlocked planters, preferences and advertising cooldown information. It also keeps a previous save snapshot for recovery. An unfinished support message may be saved locally as a draft. These game saves are not uploaded to a developer-operated account or cloud leaderboard. Device or operating-system backup features may separately back up app data according to your device settings.</p>
-        <p><strong>Support messages.</strong> When you choose to send a message through the in-game support form, the app sends the message and the installed app’s display name in the subject through Formspree over HTTPS. The form does not require your name, email address or phone number. Anything you voluntarily type into the message is included. Please do not include passwords, payment details or unnecessary sensitive information.</p>
-        <p>If you email us directly, we receive your email address, message and any attachments you choose to send. Email and form providers may also process standard technical information, such as IP addresses, request times and delivery or security logs.</p>
-        <p><strong>Advertising information.</strong> Google Mobile Ads and Google’s User Messaging Platform may process device or advertising identifiers, IP addresses, approximate location derived from technical information, app or ad interactions, diagnostic information and privacy preferences. Processing depends on the service, device settings, region and your choices. The game does not request precise device-location permission.</p>
-        <p><strong>Local diagnostics.</strong> The app maintains local counters for events such as game results and ad outcomes. These counters are not sent to a separate developer analytics or crash-reporting service. Advertising providers may perform their own measurement and diagnostics.</p>
+    <section id="scope">
+        <h2>1. Who we are</h2>
+        <p><strong>Childhood Technology Ltd.</strong> ("we," "us" or "our") provides Card Haven, an Android solitaire game. This policy explains the information handled through the game, our support channels and this policy page.</p>
+        <p>For questions or privacy requests, contact <a href="mailto:shuvo4727@gmail.com">shuvo4727@gmail.com</a>.</p>
     </section>
 
-    <section id="purposes" aria-labelledby="purposes-title">
-        <h2 id="purposes-title">2. Why information is used</h2>
+    <section id="information">
+        <h2>2. Information we handle</h2>
+        <h3>Game data stored on your device</h3>
+        <p>Card Haven stores your current and suspended deals, move history, tutorial progress, personal statistics, completed challenges, daily goals and claims, Insight balance, earned rewards, selected appearance, audio and accessibility settings, and advertising cooldown or reward records locally. An unfinished support-message draft may also be saved locally.</p>
+        <p>The game may keep local recovery copies of an older or damaged save to help preserve progress. We do not operate a game-account or cloud-save service, and our gameplay code does not upload your saved boards or profile to us. Device or operating-system backup services may separately back up app data according to your device settings.</p>
+
+        <h3>Advertising and consent information</h3>
+        <p>Card Haven integrates Google AdMob through the Google Mobile Ads SDK and uses Google's consent tools. Depending on device settings, consent and service configuration, Google may collect and share IP addresses (including approximate location derived from them), advertising or other device/app identifiers, app and ad interactions, and diagnostic or performance information. These data support ad delivery, measurement, analytics and fraud prevention.</p>
+        <p>See <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure?hl=en" rel="noopener noreferrer">Google Mobile Ads data disclosures</a> and the <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a> for details.</p>
+
+        <h3>Information you send to support</h3>
+        <p>If you use in-app support, the game sends the message you enter and an automatically generated subject containing the app's display name to Formspree, which processes and routes the submission to our support channel. The support form does not require your name, email address or phone number. Information you include voluntarily becomes part of your message.</p>
+        <p>Formspree may also process network information, such as your IP address and request metadata, to deliver and protect its service. If you email us directly, we receive your email address, message and any attachments you choose to send, through our email provider. Please avoid including passwords, payment details or other unnecessary sensitive information.</p>
+
+        <h3>Local diagnostics and device access</h3>
+        <p>The game may keep a limited recent list of gameplay events in memory and write diagnostic messages to device logs for troubleshooting. Our local event system does not send those logs to a developer-operated analytics server. Advertising SDK diagnostics are handled separately as described above.</p>
+        <p>Card Haven does not request access to your contacts, camera, microphone or precise GPS location for gameplay. Copying a deal code uses your device clipboard only when you select the copy action.</p>
+    </section>
+
+    <section id="purposes">
+        <h2>3. How information is used</h2>
         <ul>
-            <li>To run the game, restore sessions and remember your progress and preferences.</li>
-            <li>To track gameplay goals, prevent duplicate claims and apply rewards and unlocks.</li>
-            <li>To receive, investigate and respond to support or privacy requests.</li>
-            <li>To provide advertising, manage applicable privacy choices, measure ad delivery and help prevent fraud or misuse.</li>
-            <li>To protect the service and meet applicable legal obligations.</li>
+            <li>To run the game, restore sessions, save your preferences and maintain progression.</li>
+            <li>To track daily goals, grant earned rewards and prevent duplicate claims.</li>
+            <li>To provide advertising, remember consent choices, measure ad performance and prevent abuse.</li>
+            <li>To deliver support messages, investigate reported issues and respond when you provide a way to contact you.</li>
+            <li>To maintain security and meet applicable legal obligations.</li>
         </ul>
-        <p>Where applicable law requires consent for particular processing, the relevant privacy choices are presented through the advertising consent service. Other processing may be necessary to provide a service you request, maintain security or comply with law, depending on the circumstances and applicable requirements.</p>
+        <p>Where data-protection law requires a legal basis, we rely, as applicable, on providing the service you request, legitimate interests in support and security, compliance with legal obligations, or your consent where required, including for relevant advertising activities.</p>
     </section>
 
-    <section id="advertising" aria-labelledby="advertising-title">
-        <h2 id="advertising-title">3. Advertising and choices</h2>
-        <p>Block Grove uses Google AdMob. Ads may appear at eligible Home breaks or foreground transitions. A rewarded ad is an optional way to receive a limited Classic rescue. Declining that offer does not prevent you from starting a new game. Core offline play does not require an advertising connection.</p>
-        <p>Google’s User Messaging Platform checks applicable consent requirements. When a privacy-options entry is required by that service, you can open <strong>Settings → Privacy choices</strong> in the game to review or change your selections. You can also use your Android device’s advertising privacy controls, where available. Restricting personalized advertising does not necessarily remove all ads or all processing needed to deliver and protect advertising.</p>
-        <p>Learn more from <a href="https://policies.google.com/privacy">Google’s Privacy Policy</a> and <a href="https://policies.google.com/technologies/ads">Google’s advertising information</a>.</p>
+    <section id="advertising">
+        <h2>4. Advertising and your choices</h2>
+        <p>The game may display rewarded advertisements and limited advertisements outside active play. Choosing a rewarded ad is optional. Declining that offer does not prevent ordinary gameplay, but it does not disable every other ad or all advertising-related processing.</p>
+        <p>Where required, Google's consent messages let you review available advertising choices. You can revisit them through <strong>Settings → Privacy choices</strong> when that option is available in the game. Changing or withdrawing consent affects subsequent processing and does not undo processing that was lawful before the change.</p>
+        <p>You can also manage or delete your advertising ID and available ad-privacy settings in Android settings. The available controls depend on your Android version and device. Google explains its advertising controls at <a href="https://myadcenter.google.com/" rel="noopener noreferrer">My Ad Center</a>.</p>
+        <p>The game requests ads only when Google's consent tools indicate that ads may be requested. Depending on the choices available in your region, limited or non-personalized ads may still involve processing for delivery, security and measurement.</p>
     </section>
 
-    <section id="sharing" aria-labelledby="sharing-title">
-        <h2 id="sharing-title">4. Sharing and service providers</h2>
-        <p>Information is handled by service providers when needed for the functions described in this policy:</p>
+    <section id="sharing">
+        <h2>5. When information is shared</h2>
+        <p>Information is handled by service providers involved in the features you use:</p>
         <ul>
-            <li><strong>Google AdMob and User Messaging Platform:</strong> advertising delivery, measurement, security and privacy preferences.</li>
-            <li><strong>Formspree:</strong> processing and forwarding support messages you choose to submit. See the <a href="https://formspree.io/legal/privacy-policy/">Formspree Privacy Policy</a>.</li>
-            <li><strong>Email providers:</strong> delivering and storing correspondence when you contact us by email or when a support submission is forwarded to our support mailbox.</li>
+            <li><strong>Google AdMob and its advertising services:</strong> advertising, consent, measurement and fraud prevention, as described above.</li>
+            <li><strong>Formspree:</strong> processing and routing in-app support submissions. Read the <a href="https://formspree.io/legal/privacy-policy/" rel="noopener noreferrer">Formspree Privacy Policy</a>.</li>
+            <li><strong>Our email provider:</strong> receiving and managing support or privacy correspondence.</li>
         </ul>
-        <p>We may also disclose information where required by law, to respond to lawful requests, or where reasonably necessary to protect rights, safety and the security of our services.</p>
-        <p>We do not sell your support messages or locally saved game progress. Advertising-related data sharing may be treated as a “sale,” “sharing” or targeted advertising under some privacy laws. Where applicable, use the available advertising privacy choices or contact us about your rights.</p>
+        <p>We may also disclose information when required by law, to respond to valid legal requests, or to protect people, our services and legal rights. We do not sell your saved game data or support messages. Advertising-related disclosures may be considered “sharing” or similar activity under some privacy laws; use the available advertising controls or contact us about your rights.</p>
+        <p>External advertisements and links can lead to services with their own privacy practices. Their policies apply when you interact with those services.</p>
     </section>
 
-    <section id="retention" aria-labelledby="retention-title">
-        <h2 id="retention-title">5. Retention and deletion</h2>
-        <p><strong>Local game data:</strong> your saves, preferences and support draft remain on your device until replaced or removed. You can remove app data using Android’s app-storage settings or uninstall the app. This can permanently remove your progress. Device backups may retain a separate copy; manage those through your backup provider’s settings.</p>
-        <p><strong>Support correspondence:</strong> we retain messages for as long as reasonably necessary to handle the request, follow up on an issue, maintain security or meet applicable legal obligations. Retention in Formspree, email systems and their backups also depends on those providers’ policies and available controls. Contact us to request deletion of correspondence we can identify and control.</p>
-        <p><strong>Advertising data:</strong> retention and deletion are governed by the advertising provider’s policies and applicable law. Clearing local game data does not automatically delete information already processed by an advertising or support provider.</p>
+    <section id="retention">
+        <h2>6. Retention and deletion</h2>
+        <p><strong>On-device data:</strong> game saves, settings, reward records, drafts and recovery copies remain in app storage until replaced or removed. To erase them, open Android settings, select Card Haven, and clear the app's storage/data. This resets your local progress and cannot be undone through our game service.</p>
+        <p>Uninstalling or restoring the app can interact with operating-system backups. Manage any device or cloud backups separately through the relevant provider's controls; clearing local app data does not itself delete a provider's backup.</p>
+        <p><strong>Support correspondence:</strong> we retain messages for as long as reasonably needed to address the request, maintain relevant support records, resolve disputes or meet legal obligations. You can request deletion by emailing us. Providers may retain separate records or backups under their policies and applicable obligations.</p>
+        <p><strong>Advertising data:</strong> Google determines retention for information it processes under its policies and available controls. Deleting your local game progress does not automatically delete information already held by Google or Formspree.</p>
+        <p>No Card Haven account is created, so there is no game account to delete.</p>
     </section>
 
-    <section id="rights" aria-labelledby="rights-title">
-        <h2 id="rights-title">6. Your privacy rights</h2>
-        <p>Depending on where you live, you may have rights to request access, correction, deletion or a copy of personal information; object to or restrict certain processing; withdraw consent; or opt out of certain advertising-related sharing. You may also have the right to complain to your local data-protection authority.</p>
-        <p>To make a request, email <a href="mailto:shuvo4727@gmail.com">shuvo4727@gmail.com</a> with the subject “Block Grove Privacy Request.” Explain the request and provide enough information for us to locate relevant correspondence. Do not send sensitive identity documents unless a necessary, proportionate verification method has first been agreed. We may need to verify a request and will respond as required by applicable law.</p>
-        <p>We cannot remotely retrieve or erase a game save that exists only on your device. Use your device’s storage controls for that data. Requests concerning information controlled independently by Google or another provider may need to be directed to that provider. Where you withdraw consent, this does not affect the lawfulness of processing carried out before the withdrawal.</p>
+    <section id="security">
+        <h2>7. Security and international processing</h2>
+        <p>The in-app support feature uses HTTPS, and Google's advertising SDK uses encrypted transport for its data transmissions. We take reasonable measures to protect information we handle, but no device, transmission or storage method can be guaranteed completely secure.</p>
+        <p>Google, Formspree and our email provider may process information on servers outside your country, including in the United States. Applicable protections and transfer arrangements depend on the provider, destination and relevant law. Their linked privacy policies provide additional information.</p>
     </section>
 
-    <section id="children" aria-labelledby="children-title">
-        <h2 id="children-title">7. Children’s privacy</h2>
-        <p>The game does not ask players to create an account or provide their age, name or contact details to play. We do not knowingly solicit personal information from children through support messages. Children should not include personal details in a message without help from a parent or guardian.</p>
-        <p>If you believe a child has provided personal information to us without any consent required by applicable law, contact <a href="mailto:shuvo4727@gmail.com">shuvo4727@gmail.com</a>. We will review the matter and take appropriate action, including deletion where required and within our control. Advertising providers’ processing and available privacy choices are described above.</p>
+    <section id="rights">
+        <h2>8. Your privacy rights</h2>
+        <p>Depending on where you live, you may have rights to request access to, correction of, deletion of or a copy of personal information, to restrict or object to processing, to withdraw consent, or to opt out of certain advertising-related sharing. These rights are subject to applicable law and exceptions.</p>
+        <p>Send requests to <a href="mailto:shuvo4727@gmail.com">shuvo4727@gmail.com</a> with “Card Haven privacy request” in the subject. Describe your request and the information involved. We may need reasonable information to verify that the request concerns you. We cannot retrieve a local-only save from your device.</p>
+        <p>For information held independently by Google or Formspree, you may also use their privacy controls or contact them directly. You may have the right to raise a concern with your local data-protection authority.</p>
     </section>
 
-    <section id="security" aria-labelledby="security-title">
-        <h2 id="security-title">8. Security and international processing</h2>
-        <p>Support submissions from the game use HTTPS. Access to information is limited according to the needs of operating the game and handling requests. No method of electronic transmission or storage can be guaranteed completely secure.</p>
-        <p>Our advertising, form and email providers may process information in countries other than your own, including the United States. Those countries may have different data-protection laws. The providers’ privacy notices describe their international processing and relevant protections. Contact us with questions about information handled for Block Grove.</p>
+    <section id="children">
+        <h2>9. Children's privacy</h2>
+        <p>Card Haven is intended for players aged 13 and older and is not directed to children under 13. We do not knowingly collect personal information from children under 13 through our support channels. If you believe a child has provided personal information to us, contact us so we can investigate and take appropriate steps to remove it.</p>
     </section>
 
-    <section id="links" aria-labelledby="links-title">
-        <h2 id="links-title">9. This page and external links</h2>
-        <p>This policy page contains no analytics scripts, advertising scripts, tracking pixels or embedded third-party media. When this page is hosted, the hosting provider may process ordinary web-request information, such as your IP address and browser details, to deliver and secure the page.</p>
-        <p>Following an external link opens a service governed by its own privacy notice. This policy explains Block Grove’s practices; it does not replace the notices of Google, Formspree, your email provider or your device’s backup provider.</p>
+    <section id="website">
+        <h2>10. This policy page</h2>
+        <p>This page contains no embedded advertisements, analytics, tracking scripts or cookies. When served online, its hosting provider may process ordinary connection details, such as IP addresses and request times, to deliver and secure the page. Opening an external link is subject to that website's privacy practices.</p>
     </section>
 
-    <section id="changes" aria-labelledby="changes-title">
-        <h2 id="changes-title">10. Policy updates</h2>
-        <p>We may update this policy when the game, its services or applicable requirements change. The revised policy will show an updated date on this page. Where additional notice or consent is required, we will provide it through an appropriate channel.</p>
+    <section id="changes">
+        <h2>11. Changes to this policy</h2>
+        <p>We may update this policy to reflect changes in the game, service providers or applicable requirements. The updated version will show a revised “Last updated” date on this page. Where required, we will provide additional notice or request consent for material changes.</p>
     </section>
 
-    <section id="contact" aria-labelledby="contact-title">
-        <h2 id="contact-title">11. Contact us</h2>
-        <div class="contact">
-            <address>
-                <strong>Childhood Technology Ltd.</strong><br>
-                Block Grove — privacy and support<br>
-                Email: <a href="mailto:shuvo4727@gmail.com">shuvo4727@gmail.com</a>
-            </address>
-        </div>
+    <section id="contact" class="contact">
+        <h2>12. Contact us</h2>
+        <address>
+            <p><strong>Childhood Technology Ltd.</strong><br>Card Haven — privacy and support</p>
+            <p>Email: <a href="mailto:shuvo4727@gmail.com"><strong>shuvo4727@gmail.com</strong></a></p>
+        </address>
     </section>
 </main>
 
 <footer>
-    <div class="wrap">© 2026 Childhood Technology Ltd. · Block Grove Privacy Policy</div>
+    <p>© 2026 Childhood Technology Ltd. · Card Haven<br>Android application: com.childhood.cardhaven</p>
 </footer>
 </body>
 </html>
