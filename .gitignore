@@ -1,0 +1,11 @@
+# IDE & Cache
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+
+# Logs & Scratch
+*.log
+*.tmp
+scratch/
+test_device_screen.png
