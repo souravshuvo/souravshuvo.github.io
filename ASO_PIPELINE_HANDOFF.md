@@ -1,8 +1,9 @@
 # 🚀 Antigravity ASO Pipeline Handoff Guide
 
 ## 📊 Current Status Overview
-- **Completed Games**: 44 / 50 (Genuine Flutter code verification, native UI/gameplay captures, and Full HD synced trailers).
+- **Completed Games**: 44 / 58 (44 completed with genuine Flutter code verification, native UI/gameplay captures, and Full HD synced trailers; 14 verified game branches remaining in queue).
 - **Storage Location**: `D:\souravshuvo.github.io\game_store_assets\<Game-Name>\`
+- **Portable ASO Scripts**: [`aso_scripts/`](./aso_scripts/) (`run_phone_aso.py`, `aso_screenshot_engine.py`, `aso_trailer_engine.py`)
 - **Master Manifest**: [`PORTFOLIO_ASSETS_MANIFEST.md`](./PORTFOLIO_ASSETS_MANIFEST.md) & [`game_store_assets/README.md`](./game_store_assets/README.md)
 - **Source Code Repository**: `https://github.com/souravshuvo/project-game.git`
 - **Store Assets Repository**: `https://github.com/souravshuvo/souravshuvo.github.io.git`
@@ -57,12 +58,23 @@
 
 ---
 
-## 📋 Next Queue (Game 45 Onwards — Verified `project-game.git` Branches)
-45. **food_order** (Branch: `origin/food_order`)
-46. **gate_squad** (Branch: `origin/gate_squad`)
+## 📋 Next Queue (Games 45–58 — All 14 Remaining Verified `project-game.git` Branches)
+45. **food_order** (`origin/food_order` — Bite Stack: Food Match / Stack, `com.childhood.stack`)
+46. **gate_squad** (`origin/gate_squad` — Gate Squad: Runner Shooter, `com.childhood.gatesquad`)
+47. **brain-wink** (`origin/brain-wink` — Brain Wink: Notebook Puzzles, `com.childhood.brainwink`)
+48. **bridal** (`origin/bridal` — Skyline Relay, `com.childhood.skylinerelay`)
+49. **dot-and-box** (`origin/dot-and-box` — Dots and Boxes: 2 Player Game, `com.childhood.dotsandboxes`)
+50. **kettle_match** (`origin/kettle_match` — Kettle Match: Triple Tile, `com.childhood.kettlematch`)
+51. **kids_land** (`origin/kids_land` — Kids Land: ABC & 123 Learning, `com.childhood.kidsland`)
+52. **killer** (`origin/killer` — SWAT: Insect Tap Challenge, `com.childhood.swat`)
+53. **mini_games** (`origin/mini_games` — Mini Games: Pocket Arcade, `com.childhood.minigames`)
+54. **pen_cricket** (`origin/pen_cricket` — Pen Cricket: Spin & Chase, `com.childhood.pencricket`)
+55. **police_thief** (`origin/police_thief` — Chor Police: Hidden Roles, `com.childhood.policethief`)
+56. **space_shooter** (`origin/space_shooter` — Space Shooter: Galaxy Patrol, `com.childhood.spaceshooter`)
+57. **sudoku** (`origin/sudoku` — Sudoku Lantern: Number Puzzles, `com.childhood.sudoku`)
+58. **tic_tac_toe** (`origin/tic_tac_toe` — Tic Tac Toe: Two Player XO, `com.childhood.tictactoe`)
 
-> **Remaining lowercase game branches verified in `project-game.git`:**
-> `food_order`, `gate_squad`, `kettle_match`, `kids_land`, `pen_cricket`, `police_thief`, `space_shooter`, `sudoku`, `tic_tac_toe`. *(Prior speculative placeholder names like `Merge-Market`, `Orbit-&-Ooze`, `Carrom-Board-Pro` were removed after `git ls-remote` verification showed they do not exist in the repository.)*
+> *(Excludes `main` archive branch and `codex/*` WIP branches; prior speculative placeholder names not present in the repo remain excluded.)*
 
 ---
 
@@ -105,9 +117,9 @@ For each game, create the following 5 assets under `D:\souravshuvo.github.io\gam
 
 When opening a new conversation in Antigravity (at home or elsewhere):
 
-1. Ensure the workspace is set to `d:\souravshuvo.github.io` (or your local clone path).
-2. Run `git pull origin main` to get the latest assets.
-3. Paste the following prompt into the chat:
+1. Ensure the workspace is set to your local clone of `souravshuvo.github.io` (e.g. `d:\souravshuvo.github.io` or any drive/path on your PC).
+2. Run `git pull origin main` to get the latest assets and portable [`aso_scripts/`](./aso_scripts/) (`run_phone_aso.py`, `aso_screenshot_engine.py`, `aso_trailer_engine.py`).
+3. Ensure `flutter`, `adb`, `python` (+ `pillow`), and `ffmpeg`/`ffprobe` are installed, connect your Android phone via USB Debugging, and paste the prompt into a new chat:
 
 ```text
 আমি আমার Flutter গেম পোর্টফোলিওর ASO অ্যাসেট তৈরির কাজ কন্টিনিউ করতে চাই।

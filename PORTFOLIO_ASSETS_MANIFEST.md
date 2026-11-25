@@ -456,7 +456,19 @@
 
 ---
 
-## 📋 পরবর্তী টার্গেট গেমসমূহ (Next in Queue — Verified `project-game.git` Branches)
-1. **food_order** (`origin/food_order`)
-2. **gate_squad** (`origin/gate_squad`)
-*(অতিরিক্ত ভেরিফায়েড lowercase গেম ব্রাঞ্চ: `kettle_match`, `kids_land`, `pen_cricket`, `police_thief`, `space_shooter`, `sudoku`, `tic_tac_toe` ইত্যাদি।)*
+## 📋 পরবর্তী টার্গেট গেমসমূহ (Next in Queue — All 14 Remaining Verified `project-game.git` Branches, #45–#58)
+1. **food_order** (`origin/food_order` — Bite Stack: Food Match / Stack, `com.childhood.stack`)
+2. **gate_squad** (`origin/gate_squad` — Gate Squad: Runner Shooter, `com.childhood.gatesquad`)
+3. **brain-wink** (`origin/brain-wink` — Brain Wink: Notebook Puzzles, `com.childhood.brainwink`)
+4. **bridal** (`origin/bridal` — Skyline Relay, `com.childhood.skylinerelay`)
+5. **dot-and-box** (`origin/dot-and-box` — Dots and Boxes: 2 Player Game, `com.childhood.dotsandboxes`)
+6. **kettle_match** (`origin/kettle_match` — Kettle Match: Triple Tile, `com.childhood.kettlematch`)
+7. **kids_land** (`origin/kids_land` — Kids Land: ABC & 123 Learning, `com.childhood.kidsland`)
+8. **killer** (`origin/killer` — SWAT: Insect Tap Challenge, `com.childhood.swat`)
+9. **mini_games** (`origin/mini_games` — Mini Games: Pocket Arcade, `com.childhood.minigames`)
+10. **pen_cricket** (`origin/pen_cricket` — Pen Cricket: Spin & Chase, `com.childhood.pencricket`)
+11. **police_thief** (`origin/police_thief` — Chor Police: Hidden Roles, `com.childhood.policethief`)
+12. **space_shooter** (`origin/space_shooter` — Space Shooter: Galaxy Patrol, `com.childhood.spaceshooter`)
+13. **sudoku** (`origin/sudoku` — Sudoku Lantern: Number Puzzles, `com.childhood.sudoku`)
+14. **tic_tac_toe** (`origin/tic_tac_toe` — Tic Tac Toe: Two Player XO, `com.childhood.tictactoe`)
+*(নোট: রিপোর `main` ও `codex/*` ডেভ/আর্কাইভ ব্রাঞ্চগুলো এই কিউর বাইরে রাখা হয়েছে।)*
