@@ -1,7 +1,7 @@
 # 🚀 Antigravity ASO Pipeline Handoff Guide
 
 ## 📊 Current Status Overview
-- **Completed Games**: 26 / 50 (Strictly 1-by-1, 100% genuine code & gameplay verified).
+- **Completed Games**: 44 / 50 (Genuine Flutter code verification, native UI/gameplay captures, and Full HD synced trailers).
 - **Storage Location**: `D:\souravshuvo.github.io\game_store_assets\<Game-Name>\`
 - **Master Manifest**: [`PORTFOLIO_ASSETS_MANIFEST.md`](./PORTFOLIO_ASSETS_MANIFEST.md) & [`game_store_assets/README.md`](./game_store_assets/README.md)
 - **Source Code Repository**: `https://github.com/souravshuvo/project-game.git`
@@ -9,7 +9,7 @@
 
 ---
 
-## 🏆 Completed Games (1 – 26)
+## 🏆 Completed Games (1 – 44)
 1. `Twin-Tower-Drop` (`com.childhood.twintowerdrop`)
 2. `Amaze-Roll` (`com.childhood.amazeroll`)
 3. `Bike-Traffic-Racer` (`com.childhood.bike`)
@@ -36,34 +36,33 @@
 24. `Cable-Garden` (`com.childhood.cablegarden`)
 25. `Carve-the-Shape` (`com.childhood.carvetheshape`)
 26. `Color-Courtyard` (`com.childhood.colorcourtyard`)
+27. `Cozy-Fit` (`com.childhood.cozyfit`)
+28. `Domino-Detour` (`com.childhood.dominodetour`)
+29. `Fold-&-Stamp` (`com.childhood.foldstamp` — folder `Fold-and-Stamp`)
+30. `Meadow-Claim` (`com.childhood.meadowclaim`)
+31. `Night-Market-Minute` (`com.childhood.nightmarketminute` — replaced non-existent `Merge-Market` placeholder)
+32. `Object-Finder` (`com.childhood.objectfinder`)
+33. `Pocket-Habitat` (`com.childhood.pockethabitat`)
+34. `Pocket-Pinball-Expedition` (`com.childhood.pocketpinballexpedition`)
+35. `Sum-Foundry` (`com.childhood.sumfoundry`)
+36. `Switchyard-Minute` (`com.childhood.switchyardminute`)
+37. `Word-Trail-Expedition` (`com.childhood.wordtrailexpedition`)
+38. `Arrow-Flow` (`com.childhood.arrowflow`, Branch: `arrow_flow`)
+39. `Can-Smash` (`com.childhood.smash`, Branch: `can_smash` — distinct from #5 `Smash-DIY-ASMR`)
+40. `Canopy-Rush` (`com.childhood.canopyrush`, Branch: `canopy_rush`)
+41. `Card-Haven` (`com.childhood.cardhaven`, Branch: `card-haven`)
+42. `City-Hole` (`com.childhood.city`, Branch: `city_hole` — distinct from #6 `City-Cleaner-Hole`)
+43. `Color-Sort` (`com.childhood.weatherlabsort`, Branch: `color_sort`)
+44. `Dew-Bubble-Garden` (`com.childhood.dewbubble`, Branch: `dew_bubble`)
 
 ---
 
-## 📋 Next Queue (Game 27 Onwards)
-27. **Cozy-Fit** (Branch: `origin/Cozy-Fit` in `project-game.git`)
-28. **Domino-Detour** (Branch: `origin/Domino-Detour`)
-29. **Fold-&-Stamp** (Branch: `origin/Fold-&-Stamp`)
-30. **Meadow-Claim** (Branch: `origin/Meadow-Claim`)
-31. **Merge-Market** (Branch: `origin/Merge-Market`)
-32. **Orbit-&-Ooze** (Branch: `origin/Orbit-&-Ooze`)
-33. **Petal-Drop** (Branch: `origin/Petal-Drop`)
-34. **Pine-&-Peak** (Branch: `origin/Pine-&-Peak`)
-35. **Ribbon-Rail** (Branch: `origin/Ribbon-Rail`)
-36. **Rust-&-Rotor** (Branch: `origin/Rust-&-Rotor`)
-37. **Sand-&-Spire** (Branch: `origin/Sand-&-Spire`)
-38. **Silk-&-Spool** (Branch: `origin/Silk-&-Spool`)
-39. **Sip-&-Sort** (Branch: `origin/Sip-&-Sort`)
-40. **Solar-Drift** (Branch: `origin/Solar-Drift`)
-41. **Spark-&-Spindle** (Branch: `origin/Spark-&-Spindle`)
-42. **Tangle-Tavern** (Branch: `origin/Tangle-Tavern`)
-43. **Tile-Trek** (Branch: `origin/Tile-Trek`)
-44. **Vine-&-Vase** (Branch: `origin/Vine-&-Vase`)
-45. **Wax-&-Wick** (Branch: `origin/Wax-&-Wick`)
-46. **Windmill-Way** (Branch: `origin/Windmill-Way`)
-47. **Yarn-Yard** (Branch: `origin/Yarn-Yard`)
-48. **Zen-Zodiac** (Branch: `origin/Zen-Zodiac`)
-49. **Carrom-Board-Pro** (Branch: `origin/carrom`)
-50. **Ludo-Classic-Star** (Branch: `origin/ludo`)
+## 📋 Next Queue (Game 45 Onwards — Verified `project-game.git` Branches)
+45. **food_order** (Branch: `origin/food_order`)
+46. **gate_squad** (Branch: `origin/gate_squad`)
+
+> **Remaining lowercase game branches verified in `project-game.git`:**
+> `food_order`, `gate_squad`, `kettle_match`, `kids_land`, `pen_cricket`, `police_thief`, `space_shooter`, `sudoku`, `tic_tac_toe`. *(Prior speculative placeholder names like `Merge-Market`, `Orbit-&-Ooze`, `Carrom-Board-Pro` were removed after `git ls-remote` verification showed they do not exist in the repository.)*
 
 ---
 
@@ -112,8 +111,8 @@ When opening a new conversation in Antigravity (at home or elsewhere):
 
 ```text
 আমি আমার Flutter গেম পোর্টফোলিওর ASO অ্যাসেট তৈরির কাজ কন্টিনিউ করতে চাই।
-ইতিমধ্যে ১ থেকে ২৬ নম্বর গেম সম্পন্ন হয়েছে (PORTFOLIO_ASSETS_MANIFEST.md এবং ASO_PIPELINE_HANDOFF.md দেখো)।
-এখন ২৭তম গেম Cozy-Fit (Branch: origin/Cozy-Fit from https://github.com/souravshuvo/project-game.git) থেকে শুরু করে স্ট্রিক্টলি ১টি ১টি করে গেম প্রসেস করা শুরু করো:
+ইতিমধ্যে ১ থেকে ৪৪ নম্বর গেম সম্পন্ন হয়েছে (PORTFOLIO_ASSETS_MANIFEST.md এবং ASO_PIPELINE_HANDOFF.md দেখো)।
+এখন ৪৫তম গেম food_order (Branch: origin/food_order from https://github.com/souravshuvo/project-game.git) থেকে শুরু করে স্ট্রিক্টলি ১টি ১টি করে গেম প্রসেস করা শুরু করো:
 ১. গেমটির ব্রাঞ্চ চেকআউট করে প্যাকেজ আইডি, সোর্স কোড ও অরিজিনাল অডিও/গ্রাফিক ভেরিফাই করা।
 ২. ৫১২×৫১২ আইকন ও ১০২৪×৫০০ ব্যানার সংরক্ষণ।
 ৩. ৮টি আল্ট্রা ৩ডি পপ-আউট স্ক্রিনশট (১০৮০×১৯২০) তৈরি (টুইন-টাওয়ার স্ট্যান্ডার্ড)।
