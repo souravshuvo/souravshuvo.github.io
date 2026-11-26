@@ -9,43 +9,46 @@
 ## 🏆 সম্পন্ন হওয়া প্রিমিয়াম গেমসমূহ (৫৮টি)
 
 ### ১. [Twin-Tower-Drop](file:///D:/souravshuvo.github.io/game_store_assets/Twin-Tower-Drop/)
-* **কোড ভেরিফিকেশন**: Flutter 3D Skyline slice mechanics, bridge formation, win condition
-* **স্ক্রিনশটস**: ৮টি প্রিমিয়াম 3D অ্যাকশন শট (1080×1920)
+* **কোড ভেরিফিকেশন**: Flutter 3D Skyline slice mechanics, bridge formation, win condition (`Twin-Tower-Drop` branch)
+* **স্ক্রিনশটস**: ৮টি প্রিমিয়াম 3D কনসেপ্ট-আর্ট কার্ড ও পরিচ্ছন্ন ASO ফুটার টেক্সট (1080×1920)
+* **র কালেকশন**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Twin-Tower-Drop/raw_captures/) (৮টি 1220×2712 লাইভ ফোন ক্যাপচার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন ও 1024×500 ফিচার ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [twintower_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Twin-Tower-Drop/videos/twintower_trailer_portrait_9x16.mp4) (4.6 Mbps, 1080p)
-  - [twintower_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Twin-Tower-Drop/videos/twintower_trailer_landscape_16x9.mp4) (5.2 Mbps, 1080p)
+  - [twintower_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Twin-Tower-Drop/videos/twintower_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, অরিজিনাল `harbor-loop.wav` + SFX, Play Store এন্ডকার্ড)
+  - [twintower_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Twin-Tower-Drop/videos/twintower_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, অরিজিনাল অডিও ও Play Store এন্ডকার্ড)
 
 ---
 
 ### ২. [Amaze-Roll](file:///D:/souravshuvo.github.io/game_store_assets/Amaze-Roll/)
-* **কোড ভেরিফিকেশন**: 3D Maze Paint roller mechanics, level color themes
-* **স্ক্রিনশটস**: ৮টি আল্ট্রা-রিচ গেমপ্লে শট (1080×1920)
+* **কোড ভেরিফিকেশন**: 3D Maze Paint roller mechanics, wall-to-wall BFS hints, coin sweep & ball skins (`amazeroll` branch)
+* **স্ক্রিনশটস**: ৮টি টুইন-টাওয়ার 3D অ্যাকশন কার্ড ([amazeroll_screenshot_01..08.png](file:///D:/souravshuvo.github.io/game_store_assets/Amaze-Roll/screenshots/), 1080×1920)
+* **র কালেকশন**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Amaze-Roll/raw_captures/) (৮টি 1220×2712 লাইভ ফোন ক্যাপচার, জিরো ক্রসহেয়ার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন ও 1024×500 ফিচার ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [amazeroll_trailer_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Amaze-Roll/videos/amazeroll_trailer_16x9.mp4) (Full HD)
+  - [amazeroll_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Amaze-Roll/videos/amazeroll_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, অরিজিনাল SFX মিক্স `-21.8 dB`, Play Store এন্ডকার্ড)
+  - [amazeroll_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Amaze-Roll/videos/amazeroll_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, Full HD স্টিরিও AAC)
 
 ---
 
 ### ৩. [Bike-Traffic-Racer](file:///D:/souravshuvo.github.io/game_store_assets/Bike-Traffic-Racer/) (LaneBlitz)
-* **কোড ভেরিফিকেশন**: First-person 3D cockpit motorcycle traffic simulation, 4 campaign environments, garage tuning
-* **স্ক্রিনশটস**: ৮টি হাইপারক্যাজুয়াল অ্যাকশন স্ক্রিনশট (1080×1920)
-* **র কালেকশন**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Bike-Traffic-Racer/raw_captures/) (৮টি 1920×1080 ফুল-এইচডি রেন্ডার)
+* **কোড ভেরিফিকেশন**: First-person 3D cockpit motorcycle traffic simulation, Day/Sunset/Night environments, garage tuning (`bike` branch)
+* **স্ক্রিনশটস**: ৮টি টুইন-টাওয়ার 3D অ্যাকশন কার্ড ([laneblitz_screenshot_01..08.png](file:///D:/souravshuvo.github.io/game_store_assets/Bike-Traffic-Racer/screenshots/), 1080×1920)
+* **র কালেকশন**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Bike-Traffic-Racer/raw_captures/) (৮টি 2712×1220 ন্যাটিভ ল্যান্ডস্কেপ লাইভ ক্যাপচার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [bike_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Bike-Traffic-Racer/videos/bike_trailer_landscape_16x9.mp4) (1080p, অরিজিনাল বাইক সাউন্ড ও এসএফএক্স)
-  - [bike_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Bike-Traffic-Racer/videos/bike_trailer_portrait_9x16.mp4) (1080p, ভার্টিক্যাল ট্রেইলার)
+  - [laneblitz_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Bike-Traffic-Racer/videos/laneblitz_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, `bgm_loop.wav` + বাইক SFX `-15.9 dB`, Play Store এন্ডকার্ড)
+  - [laneblitz_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Bike-Traffic-Racer/videos/laneblitz_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, অরিজিনাল ইঞ্জিন ও নিয়ার-মিস সাউন্ড)
 
 ---
 
 ### ৪. [Swirl-Studio-Ice-Cream](file:///D:/souravshuvo.github.io/game_store_assets/Swirl-Studio-Ice-Cream/)
-* **কোড ভেরিফিকেশন**: 8-Phase Soft-serve craft simulation (Order -> Pick -> Chopping ASMR -> Blending -> Pouring Swirl -> Decorating Toppings -> Customer Reaction -> 3-Star Victory)
-* **স্ক্রিনশটস**: ৮টি আল্ট্রা-ভাইব্রেন্ট প্যাস্টেল স্ক্রিনশট (1080×1920)
-* **র কালেকশন**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Swirl-Studio-Ice-Cream/raw_captures/) (৮টি 1080×1920 র গেমপ্লে রেন্ডার)
+* **কোড ভেরিফিকেশন**: 8-Phase Soft-serve craft simulation (`ice_cream` branch: Order -> Pick -> Chopping ASMR -> Blending -> 3-Color Pour -> Decorate -> Result -> Shop)
+* **স্ক্রিনশটস**: ৮টি টুইন-টাওয়ার 3D কার্ড ([swirlstudio_screenshot_01..08.png](file:///D:/souravshuvo.github.io/game_store_assets/Swirl-Studio-Ice-Cream/screenshots/), 1080×1920)
+* **র কালেকশন**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Swirl-Studio-Ice-Cream/raw_captures/) (৮টি 1220×2712 ন্যাটিভ লাইভ ক্যাপচার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [swirl_studio_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Swirl-Studio-Ice-Cream/videos/swirl_studio_trailer_portrait_9x16.mp4) (1080p, অরিজিনাল সফট-সার্ভ পোরিং সাউন্ড ও মিউজিক)
-  - [swirl_studio_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Swirl-Studio-Ice-Cream/videos/swirl_studio_trailer_landscape_16x9.mp4) (1080p ল্যান্ডস্কেপ প্রোমো)
+  - [swirlstudio_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Swirl-Studio-Ice-Cream/videos/swirlstudio_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, অরিজিনাল পার্লার অডিও `-22.4 dB`, Play Store এন্ডকার্ড)
+  - [swirlstudio_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Swirl-Studio-Ice-Cream/videos/swirlstudio_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
@@ -72,55 +75,55 @@
 ---
 
 ### ৭. [Dog-Escape-Run](file:///D:/souravshuvo.github.io/game_store_assets/Dog-Escape-Run/) (Dog Escape: Sneak Past Guards)
-* **কোড ভেরিফিকেশন**: 2.5D stealth obstacle pathing, guard patrol vision cone algorithms, floor switches & laser gate barriers, crate push mechanics, hedge maze minigame, wardrobe skin selector
-* **স্ক্রিনশটস**: ৮টি হাইপারক্যাজুয়াল স্টেলথ অ্যাকশন স্ক্রিনশট (1080×1920)
-* **র কালেকশন**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Dog-Escape-Run/raw_captures/) (৮টি 1080×1920 রেন্ডার)
-* **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: 791AC07B...) ও 1024×500 ফিচার গ্রাফিক ব্যানার
+* **কোড ভেরিফিকেশন**: 2.5D stealth obstacle pathing, guard patrol cones, floor switches, laser vaults, box crash, bonus maze & skin shop (`dogescape` branch)
+* **স্ক্রিনশটস**: ৮টি টুইন-টাওয়ার 3D অ্যাকশন কার্ড ([dogescape_screenshot_01..08.png](file:///D:/souravshuvo.github.io/game_store_assets/Dog-Escape-Run/screenshots/), 1080×1920)
+* **র কালেকশন**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Dog-Escape-Run/raw_captures/) (৮টি 1220×2712 ন্যাটিভ লাইভ ক্যাপচার)
+* **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [dog_escape_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Dog-Escape-Run/videos/dog_escape_trailer_portrait_9x16.mp4) (1080p, অরিজিনাল বিজিএম ও অ্যালার্ট এসএফএক্স)
-  - [dog_escape_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Dog-Escape-Run/videos/dog_escape_trailer_landscape_16x9.mp4) (1080p ল্যান্ডস্কেপ প্রোমো)
+  - [dogescape_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Dog-Escape-Run/videos/dogescape_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, অরিজিনাল `bgm.wav` + SFX `-25.5 dB`, Play Store এন্ডকার্ড)
+  - [dogescape_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Dog-Escape-Run/videos/dogescape_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
 ### ৮. [Sholo-Guti-16-Beads](file:///D:/souravshuvo.github.io/game_store_assets/Sholo-Guti-16-Beads/) (Sholo Guti: 16 Beads Strategy)
-* **কোড ভেরিফিকেশন**: 37-node sacred geometry grid engine, multi-hop jump capture rules, AI minimax heuristics (Easy, Balanced, Sharp), Riverside Campaign Journey, Bead Material crafting
-* **স্ক্রিনশটস**: ৮টি আল্ট্রা-শার্প ট্র্যাডিশনাল স্ট্র্যাটেজি স্ক্রিনশট (1080×1920)
-* **র কালেকশন**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Sholo-Guti-16-Beads/raw_captures/) (৮টি 1080×1920 রেন্ডার)
-* **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: D211C94C...) ও 1024×500 ফিচার গ্রাফিক ব্যানার
+* **কোড ভেরিফিকেশন**: 37-node sacred geometry grid engine, multi-hop jump capture rules, AI minimax heuristics, River Journey puzzles & market (`breed_16` branch)
+* **স্ক্রিনশটস**: ৮টি টুইন-টাওয়ার 3D কার্ড ([shologuti_screenshot_01..08.png](file:///D:/souravshuvo.github.io/game_store_assets/Sholo-Guti-16-Beads/screenshots/), 1080×1920)
+* **র কালেকশন**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Sholo-Guti-16-Beads/raw_captures/) (৮টি 1220×2712 ন্যাটিভ লাইভ ক্যাপচার)
+* **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [sholo_guti_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Sholo-Guti-16-Beads/videos/sholo_guti_trailer_portrait_9x16.mp4) (1080p, অরিজিনাল রিভার ডাস্ক অ্যাম্বিয়েন্স ও গেম এসএফএক্স)
-  - [sholo_guti_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Sholo-Guti-16-Beads/videos/sholo_guti_trailer_landscape_16x9.mp4) (1080p ল্যান্ডস্কেপ প্রোমো)
+  - [shologuti_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Sholo-Guti-16-Beads/videos/shologuti_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, অরিজিনাল `river_at_dusk.wav` + SFX `-19.8 dB`, Play Store এন্ডকার্ড)
+  - [shologuti_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Sholo-Guti-16-Beads/videos/shologuti_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
 ### ৯. [Save-the-King-Match3](file:///D:/souravshuvo.github.io/game_store_assets/Save-the-King-Match3/) (Save the King: Match 3 Puzzle)
-* **কোড ভেরিফিকেশন**: Adjacent-swap match-3 engine, royal gate lift mechanics, 3x3 blast boosters & radar hint solvers, 120 deterministic campaign rescues across 12 chapters, daily royal orders
-* **স্ক্রিনশটস**: ৮টি আল্ট্রা-রিচ রয়্যাল ম্যাচ-৩ অ্যাকশন স্ক্রিনশট (1080×1920)
-* **র কালেকশন**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Save-the-King-Match3/raw_captures/) (৮টি 1080×1920 রেন্ডার)
-* **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: 41632A86...) ও 1024×500 ফিচার গ্রাফিক ব্যানার
+* **কোড ভেরিফিকেশন**: Adjacent-swap match-3 engine, spiked & serpent boss traps, royal gate lifts, 3×3 blast powers & radar solver (`save_the_king` branch)
+* **স্ক্রিনশটস**: ৮টি টুইন-টাওয়ার 3D কার্ড ([savetheking_screenshot_01..08.png](file:///D:/souravshuvo.github.io/game_store_assets/Save-the-King-Match3/screenshots/), 1080×1920)
+* **র কালেকশন**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Save-the-King-Match3/raw_captures/) (৮টি 1220×2712 ন্যাটিভ লাইভ ক্যাপচার)
+* **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [save_the_king_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Save-the-King-Match3/videos/save_the_king_trailer_portrait_9x16.mp4) (1080p, অরিজিনাল টাউন থিম ও ম্যাচ-৩ এসএফএক্স)
-  - [save_the_king_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Save-the-King-Match3/videos/save_the_king_trailer_landscape_16x9.mp4) (1080p ল্যান্ডস্কেপ প্রোমো)
+  - [savetheking_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Save-the-King-Match3/videos/savetheking_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, অরিজিনাল `royal_palace_loop.m4a` + SFX `-21.4 dB`, Play Store এন্ডকার্ড)
+  - [savetheking_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Save-the-King-Match3/videos/savetheking_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
-### 10. Emoji-Merge-Link (com.childhood.emoji, Branch: emoji)
-* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Emoji-Merge-Link/screenshots/) (৮টি পলিশড 1080×1920 কার্ড: পাজল বোর্ড, লাইন কানেকশন, স্পেশাল চ্যালেঞ্জ, লেভেল কমপ্লিট, রোডম্যাপ, শপ কাস্টমাইজেশন, মার্জ এরিনা ও লাকি হুইল)
-* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Emoji-Merge-Link/raw_captures/) (৮টি 1080×1920 রেন্ডার)
-* **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: 3572983B...) ও 1024×500 ফিচার গ্রাফিক ব্যানার
+### 10. [Emoji-Merge-Link](file:///D:/souravshuvo.github.io/game_store_assets/Emoji-Merge-Link/) (com.childhood.emoji, Branch: emoji)
+* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Emoji-Merge-Link/screenshots/) (৮টি টুইন-টাওয়ার 3D কার্ড `emojilink_screenshot_01..08.png`, 1080×1920: ফুল-কালার ইমোজি লিংক, নিওন পেন থিম, মার্জ এরিনা, শপ ও রোডম্যাপ)
+* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Emoji-Merge-Link/raw_captures/) (৮টি 1220×2712 ন্যাটিভ লাইভ ক্যাপচার)
+* **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [emoji_link_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Emoji-Merge-Link/videos/emoji_link_trailer_portrait_9x16.mp4) (1080p, অরিজিনাল bgm_loop.wav ও পেয়ার ম্যাচিং এসএফএক্স)
-  - [emoji_link_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Emoji-Merge-Link/videos/emoji_link_trailer_landscape_16x9.mp4) (1080p ল্যান্ডস্কেপ প্রোমো)
+  - [emojilink_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Emoji-Merge-Link/videos/emojilink_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, অরিজিনাল `bgm_loop.wav` + ইমোজি এসএফএক্স `-20.4 dB`, Play Store এন্ডকার্ড)
+  - [emojilink_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Emoji-Merge-Link/videos/emojilink_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
 ### 11. Helix-Jump-Spiral (com.childhood.helix, Branch: helix)
-* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Helix-Jump-Spiral/screenshots/) (৮টি পলিশড 1080×1920 কার্ড: ৩ডি হেলিক্স টাওয়ার, বাউন্সিং ডিসেন্ট, মেগা ফিভার ড্রপ, লেভেল ভিক্টরি, স্কিন শপ, লিগ ক্লাইম্ব, রিভাইভ কাউন্টডাউন ও এক্সপার্ট টাওয়ার হ্যাজার্ড)
-* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Helix-Jump-Spiral/raw_captures/) (৮টি 1080×1920 রেন্ডার)
+* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Helix-Jump-Spiral/screenshots/) (৮টি ৩ডি টুইন-টাওয়ার 1080×1920 কার্ড: হিরো মেনু `HELIX DROP`, বাউন্স ও গ্যাপ ড্রপ, ফায়ারবল স্ম্যাশ স্ট্রিক, ক্যারামেল রেড-হ্যাজার্ড টাওয়ার, `PERFECT!` ভিক্টরি লিডারবোর্ড, ব্রোঞ্জ লিগ ক্লাইম্ব, স্কিন শপ ও ১০০+ নিয়ন টাওয়ার)
+* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Helix-Jump-Spiral/raw_captures/) (৮টি 1220×2712 রিয়েল-টাইম Motorola Edge 50 লাইভ ক্যাপচার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: 75FD13CC...) ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [helix_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Helix-Jump-Spiral/videos/helix_trailer_portrait_9x16.mp4) (1080p, অরিজিনাল bgm_loop.wav ও বাউন্স/স্ম্যাশ এসএফএক্স)
-  - [helix_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Helix-Jump-Spiral/videos/helix_trailer_landscape_16x9.mp4) (1080p ল্যান্ডস্কেপ প্রোমো)
+  - [helix_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Helix-Jump-Spiral/videos/helix_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, ফোনের আসল 60fps গেমপ্লে, অরিজিনাল `bgm_loop.wav` ও বাউন্স/স্ম্যাশ এসএফএক্স `-17.9 dB`, Google Play এন্ডকার্ড)
+  - [helix_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Helix-Jump-Spiral/videos/helix_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
