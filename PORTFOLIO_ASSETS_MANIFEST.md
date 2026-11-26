@@ -128,92 +128,92 @@
 ---
 
 ### 12. Knife-Hit-Master (com.childhood.knife, Branch: knife)
-* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Knife-Hit-Master/screenshots/) (৮টি পলিশড 1080×1920 কার্ড: ASMR স্লাইস স্টার্ট, চপ অ্যাকশন, গোল্ড ফিভার, লেভেল ভিক্টরি, নাইফ ও ব্লেড শপ, উইন প্রাইজ চেস্টস, ডেইলি শেফ মিশন ও এক্সপার্ট হ্যাজার্ড বেল্ট)
-* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Knife-Hit-Master/raw_captures/) (৮টি 1080×1920 রেন্ডার)
+* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Knife-Hit-Master/screenshots/) (৮টি ৩ডি টুইন-টাওয়ার 1080×1920 কার্ড: জুসি স্লাইস টার্গেট, লাইভ ফ্লাইট হিট, বস স্টেজ ভিক্টরি, প্রাইজ চেস্ট ও ব্লেড শপ, ক্লিয়ার্ড বোর্ড ও ডেইলি শেফ মিশন — রিয়েল ফুড স্প্রাইটসহ)
+* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Knife-Hit-Master/raw_captures/) (৮টি 1220×2712 রিয়েল-টাইম Motorola Edge 50 লাইভ ক্যাপচার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: E0B475CC...) ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [knife_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Knife-Hit-Master/videos/knife_trailer_portrait_9x16.mp4) (1080p, অরিজিনাল bgm_loop.wav ও ক্রিস্প ASMR চপ এসএফএক্স)
-  - [knife_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Knife-Hit-Master/videos/knife_trailer_landscape_16x9.mp4) (1080p ল্যান্ডস্কেপ প্রোমো)
+  - [knife_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Knife-Hit-Master/videos/knife_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, ফোনের আসল গেমপ্লে, `44100Hz` স্টিরিও অরিজিনাল `bgm_loop.wav` ও চপ এসএফএক্স `-21.0 dB`, Google Play এন্ডকার্ড)
+  - [knife_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Knife-Hit-Master/videos/knife_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
 ### 13. Sky-Putt-Mini-Golf (com.childhood.golf, Branch: golf)
-* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Sky-Putt-Mini-Golf/screenshots/) (৮টি পলিশড 1080×1920 কার্ড: ক্লাবহাউজ কোর্স, এইমিং ট্র্যাজেক্টরি, বল ইন ফ্লাইট, টিউব স্লাইড ওয়ার্প, হোল-ইন-ওয়ান ভিক্টরি, গলফ ব্যাগ কালেকশন, ১০০ লেভেলস সাগা ম্যাপ ও এমারেল্ড গার্ডেন)
-* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Sky-Putt-Mini-Golf/raw_captures/) (৮টি 1080×1920 রেন্ডার)
+* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Sky-Putt-Mini-Golf/screenshots/) (৮টি ৩ডি টুইন-টাওয়ার 1080×1920 কার্ড: ক্লাবহাউজ হোম, পুট অ্যাসিস্ট এইম, বল ইন ফ্লাইট, টিউব স্লাইড ওয়ার্প, রিওয়ার্ড চেস্ট, হোল-ইন-ওয়ান ভিক্টরি, গলফ ব্যাগ কালেকশন ও ১০০ লেভেলস)
+* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Sky-Putt-Mini-Golf/raw_captures/) (৮টি 1220×2712 রিয়েল-টাইম Motorola Edge 50 লাইভ ক্যাপচার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: BB49A8AD...) ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [golf_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Sky-Putt-Mini-Golf/videos/golf_trailer_portrait_9x16.mp4) (1080p, অরিজিনাল campaign_complete.wav ও পুট/হোল এসএফএক্স)
-  - [golf_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Sky-Putt-Mini-Golf/videos/golf_trailer_landscape_16x9.mp4) (1080p ল্যান্ডস্কেপ প্রোমো)
+  - [golf_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Sky-Putt-Mini-Golf/videos/golf_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, ফোনের আসল গেমপ্লে, `44100Hz` স্টিরিও `bgm.wav` ও পুট/হোল এসএফএক্স `-18.2 dB`, Google Play এন্ডকার্ড)
+  - [golf_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Sky-Putt-Mini-Golf/videos/golf_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
 ### 14. Speed-Runner-3D (com.childhood.run, Branch: run)
-* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Speed-Runner-3D/screenshots/) (৮টি পলিশড 1080×1920 কার্ড: রেডি স্টার্ট, স্প্রিন্ট রেস, স্পিনিং হ্যামারস, উইন্ডমিল টাইমিং, জিপলাইন গ্লাইড, ১ম স্থান ভিক্টরি পোডিয়াম, ১০০ ট্র্যাক রোডম্যাপ ও ডেইলি চ্যালেঞ্জেস)
-* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Speed-Runner-3D/raw_captures/) (৮টি 1080×1920 রেন্ডার)
+* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Speed-Runner-3D/screenshots/) (৮টি ৩ডি টুইন-টাওয়ার 1080×1920 কার্ড: হোল্ড টু রান স্টার্ট, স্প্রিন্ট ও জিপলাইন গ্লাইড, শিল্ড ও স্পিনিং হ্যামারস, মুভিং প্ল্যাটফর্মস, ১ম স্থান ভিক্টরি পোডিয়াম, চ্যালেঞ্জ ও ১০০ ট্র্যাক)
+* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Speed-Runner-3D/raw_captures/) (৮টি 1220×2712 রিয়েল-টাইম Motorola Edge 50 লাইভ ক্যাপচার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: 0DD3C56C...) ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [run_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Speed-Runner-3D/videos/run_trailer_portrait_9x16.mp4) (1080p, অরিজিনাল complete.wav ও স্প্রিন্ট/হ্যামার এসএফএক্স)
-  - [run_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Speed-Runner-3D/videos/run_trailer_landscape_16x9.mp4) (1080p ল্যান্ডস্কেপ প্রোমো)
+  - [run_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Speed-Runner-3D/videos/run_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, ফোনের আসল গেমপ্লে, `44100Hz` স্টিরিও `bgm_loop.wav` ও স্প্রিন্ট/হ্যামার এসএফএক্স `-21.3 dB`, Google Play এন্ডকার্ড)
+  - [run_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Speed-Runner-3D/videos/run_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
 ### 15. Titan-Worm-Arcade (com.childhood.titanworm, Branch: titanworm)
-* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Titan-Worm-Arcade/screenshots/) (৮টি পলিশড 1080×1920 কার্ড: ব্ল্যাক মনস্টার হোম, ডেজার্ট সারফেস ব্রীচ, হেলিকপ্টার এয়ার স্ট্রাইক, ফায়ারবল ও রাশ মোড, সাবটেরেনিয়ান বারো টানেল, মিশন ভিক্টরি ও স্টারস, ক্যারাপেস/ফায়ারবল আপগ্রেডস ও ১০০ সেক্টর ক্যাম্পেইন ম্যাপ)
-* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Titan-Worm-Arcade/raw_captures/) (৮টি 1920×1080 হাই-রেজ রেন্ডার)
+* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Titan-Worm-Arcade/screenshots/) (৮টি ৩ডি টুইন-টাওয়ার 1080×1920 কার্ড: টাইটান ওয়ার্ম হোম, ডেজার্ট সারফেস ব্রীচ, চপার এয়ার স্ট্রাইক, ফায়ারবল রাশ, টানেল ও চেইন কম্বো, মিশন ভিক্টরি, আপগ্রেডস ও ১০০ সেক্টর)
+* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Titan-Worm-Arcade/raw_captures/) (৮টি 2712×1220 রিয়েল-টাইম Motorola Edge 50 ল্যান্ডস্কেপ লাইভ ক্যাপচার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: 947C1D92...) ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [titanworm_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Titan-Worm-Arcade/videos/titanworm_trailer_portrait_9x16.mp4) (1080p, অরিজিনাল bgm_loop.wav ও ডেজার্ট ব্রীচ/এক্সপ্লোশন এসএফএক্স)
-  - [titanworm_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Titan-Worm-Arcade/videos/titanworm_trailer_landscape_16x9.mp4) (1080p ল্যান্ডস্কেপ প্রোমো)
+  - [titanworm_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Titan-Worm-Arcade/videos/titanworm_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, ফোনের আসল ল্যান্ডস্কেপ গেমপ্লে, `44100Hz` স্টিরিও `bgm_loop.wav` ও এক্সপ্লোশন এসএফএক্স `-18.0 dB`, Google Play এন্ডকার্ড)
+  - [titanworm_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Titan-Worm-Arcade/videos/titanworm_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
 ### 16. Wing-Rush-Glide (com.childhood.wing, Branch: wing)
-* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Wing-Rush-Glide/screenshots/) (৮টি পলিশড 1080×1920 কার্ড: হ্যাঙ্গার র‍্যাম্প ও প্লেন, স্লিংগশট টেনশন ড্র্যাগ, ক্যানিয়ন ও ব্লু রিভার গ্লাইড, সায়ান বুস্ট গেট স্পিড ওয়ার্প, রুইনস ও কয়েন রিংস, ইভলভড ৩ডি বাইপ্লেন ফ্লাইট, ১০০০মি. জোন ভিক্টরি ফ্লাইট রিপোর্ট ও হ্যাঙ্গার আপগ্রেডস শপ)
-* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Wing-Rush-Glide/raw_captures/) (৮টি 1080×1920 রেন্ডার)
+* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Wing-Rush-Glide/screenshots/) (৮টি ৩ডি টুইন-টাওয়ার 1080×1920 কার্ড: হ্যাঙ্গার র‍্যাম্প, স্লিংগশট লঞ্চ, ক্যানিয়ন ও রিভার গ্লাইড, সায়ান বুস্ট গেট, রুইনস নেভিগেশন ও কয়েন রিংস, ইভলভড বাইপ্লেন, ফ্লাইট রিপোর্ট ও আপগ্রেড শপ)
+* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Wing-Rush-Glide/raw_captures/) (৮টি 1220×2712 রিয়েল-টাইম Motorola Edge 50 লাইভ ক্যাপচার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: C75D351C...) ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [wing_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Wing-Rush-Glide/videos/wing_trailer_portrait_9x16.mp4) (1080p, অরিজিনাল bgm.wav ও স্লিংগশট/বুস্ট এসএফএক্স)
-  - [wing_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Wing-Rush-Glide/videos/wing_trailer_landscape_16x9.mp4) (1080p ল্যান্ডস্কেপ প্রোমো)
+  - [wing_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Wing-Rush-Glide/videos/wing_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, ফোনের আসল গেমপ্লে, `44100Hz` স্টিরিও `bgm.wav` ও বুস্ট/রিং এসএফএক্স `-17.5 dB`, Google Play এন্ডকার্ড)
+  - [wing_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Wing-Rush-Glide/videos/wing_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
 ### 17. Rivet-Block-Escape (com.childhood.escape, Branch: 1)
-* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Rivet-Block-Escape/screenshots/) (৮টি পলিশড 1080×1920 কার্ড: ওয়ার্কশপ ফাউন্ড্রি হোম, লেভেল ১ ফার্স্ট ডেলিভারি, রুট পাথফাইন্ডিং হিন্ট, লেভেল বুক ১০০ পাজল রোডম্যাপ, স্টীল স্টপস ও নাম্বারড গেটস, ফ্রস্ট মিল আইস মেল্ট, ৩-স্টার অর্ডার শিপড ভিক্টরি ও গ্র্যান্ড ফাউন্ড্রি মাস্টার পাজল)
-* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Rivet-Block-Escape/raw_captures/) (৮টি 1080×1920 রেন্ডার)
+* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Rivet-Block-Escape/screenshots/) (৮টি ৩ডি টুইন-টাওয়ার 1080×1920 কার্ড: ফাউন্ড্রি ওয়ার্কশপ হোম, ফার্স্ট ডেলিভারি ও ডটেড রুট সলভার, লেভেল বুক ১০০ পাজল, স্টীল স্টপস, ফ্রস্ট মিল আইস মেল্ট, নেস্টেড পিল শেলস ও অর্ডার শিপড ভিক্টরি)
+* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Rivet-Block-Escape/raw_captures/) (৮টি 1220×2712 রিয়েল-টাইম Motorola Edge 50 লাইভ ক্যাপচার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: 0B12F3B0...) ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [rivet_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Rivet-Block-Escape/videos/rivet_trailer_portrait_9x16.mp4) (1080p, অরিজিনাল slide/exit/clear এসএফএক্স সাউন্ডট্র্যাক)
-  - [rivet_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Rivet-Block-Escape/videos/rivet_trailer_landscape_16x9.mp4) (1080p ল্যান্ডস্কেপ প্রোমো)
+  - [rivet_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Rivet-Block-Escape/videos/rivet_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, ফোনের আসল পাজল গেমপ্লে, `44100Hz` স্টিরিও `slide/pickup/exit/tool/peel/clear` এসএফএক্স `-29.5 dB`, Google Play এন্ডকার্ড)
+  - [rivet_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Rivet-Block-Escape/videos/rivet_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
 ### 18. Pedal-Post-Rush (com.childhood.pedal, Branch: 2)
-* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Pedal-Post-Rush/screenshots/) (৮টি আল্ট্রা ৩ডি পপ-আউট কার্ড: ৩ডি পপ-আউট কুরিয়ার ক্যারেক্টার ও ডজ ডেলিভারি, সিটি ডিসপ্যাচ ডেস্ক ও রোজ রো ফার্স্ট এডিশন, ট্রাফিক উইভিং, টার্গেট মেইলবক্স, পেপার ডেলিভার্ড ফিনিশ, কালেক্ট রেয়ার স্ট্যাম্পস, ১০০ রুট সিটি ডিসপ্যাচ বুক ও ১০০% অফলাইন প্লে)
-* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Pedal-Post-Rush/raw_captures/) (Motorola Edge 50 রিয়েল-টাইম স্ক্রিন ক্যাপচার ও ব্রাঞ্চ ফ্রেম)
+* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Pedal-Post-Rush/screenshots/) (৮টি ৩ডি টুইন-টাওয়ার 1080×1920 কার্ড: কুরিয়ার ক্যারেক্টার ও মেইলবক্স/স্ট্যাম্প পপ-আউট, সিটি ডিসপ্যাচ ডেস্ক, ট্রাফিক উইভিং, গোল্ড অ্যারো পেপার টস, রোজ রো রুট বুক, হোল্ড ব্রেক ক্রসিং, রুট ডেলিভার্ড ও সিভিক সার্কেল এক্সপ্রেস)
+* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Pedal-Post-Rush/raw_captures/) (৮টি 1220×2712 রিয়েল-টাইম Motorola Edge 50 লাইভ ক্যাপচার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: B1FB66EDBDA4BD5F25FB7342196E2454663FB991B351B8AB2F709D8328927931) ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [pedal_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Pedal-Post-Rush/videos/pedal_trailer_portrait_9x16.mp4) (Motorola Edge 50 ফোন থেকে সরাসরি রেকর্ড করা লাইভ ড্রাইভ, ১.৩৫x আর্কেড পেস, bell/post/stamp/finish অরিজিনাল অডিও, অ্যাকশন স্টিকার্স ও গুগল প্লে এন্ডকার্ড)
-  - [pedal_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Pedal-Post-Rush/videos/pedal_trailer_landscape_16x9.mp4) (সিনেমাটিক ডুয়াল-ক্যামেরা ল্যান্ডস্কেপ ১৬:৯ প্রোমো)
+  - [pedal_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Pedal-Post-Rush/videos/pedal_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, ফোনের আসল স্টিয়ার-উইভ গেমপ্লে, `44100Hz` স্টিরিও `bell/post/stamp/finish` অরিজিনাল অডিও `-30.4 dB`, Google Play এন্ডকার্ড)
+  - [pedal_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Pedal-Post-Rush/videos/pedal_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
 ### 19. Slap-and-Run (com.childhood.slaprun, Branch: 3)
-* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Slap-and-Run/screenshots/) (৮টি আল্ট্রা ৩ডি পপ-আউট কার্ড: ৩ডি পপ-আউট রানার ক্যারেক্টার ও স্ল্যাপ স্প্রিন্ট, বোর্ডওয়াক চেজ ও সানরাইজ পিয়ার, আউটরান দ্য ক্রাউড, চুজ ইওর লেন ও পুদিনা বুস্ট প্যাডস, ফিনিশিং স্প্রিন্ট, সুপার মাল্টিপ্লায়ার কিক রানওয়ে, পিয়ার ক্লিয়ার্ড স্কোর ২১ ও ১০০ কোস্টাল পিয়ার্স ম্যাপ)
-* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Slap-and-Run/raw_captures/) (গেম টেস্ট আর্কিটেকচার থেকে সরাসরি রেন্ডার করা ২৭৮টি লাইভ সোয়াইপ ফ্রেম)
+* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Slap-and-Run/screenshots/) (৮টি ৩ডি টুইন-টাওয়ার 1080×1920 কার্ড: হেলমেট রানার ও বুস্ট প্যাড/বুয় পপ-আউট, বোর্ডওয়াক চেজ হোম, স্ল্যাপ অ্যান্ড স্প্রিন্ট, ডজ বুয়জ, টার্বো বুস্ট প্যাড, চেকার্ড ফিনিশ, মাল্টিপ্লায়ার রানওয়ে কিক, পিয়ার ক্লিয়ার্ড ও পিয়ার ম্যাপ)
+* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Slap-and-Run/raw_captures/) (৮টি 1220×2712 রিয়েল-টাইম Motorola Edge 50 লাইভ ক্যাপচার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: 239D85BD9037B5F150DD439D5C9BFEA96BB132B0E62FEA13C01D96FA568E6C75) ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [slaprun_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Slap-and-Run/videos/slaprun_trailer_portrait_9x16.mp4) (1080p মোবাইল পোর্ট্রেট, ১.৩৫x আর্কেড পেস, start/tag/boost/launch/finish অরিজিনাল অডিও, অ্যাকশন পপআপ ও গুগল প্লে এন্ডকার্ড)
-  - [slaprun_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Slap-and-Run/videos/slaprun_trailer_landscape_16x9.mp4) (সিনেমাটিক ডুয়াল-ক্যামেরা ল্যান্ডস্কেপ ১৬:৯ প্রোমো)
+  - [slaprun_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Slap-and-Run/videos/slaprun_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, ফোনের আসল পিয়ার ০৪ রান, `44100Hz` স্টিরিও `start/step/tag/boost/chat_a/launch/finish` অরিজিনাল অডিও `-24.4 dB`, Google Play এন্ডকার্ড)
+  - [slaprun_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Slap-and-Run/videos/slaprun_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
 ### 20. Merge-Pair-Pastry (com.childhood.mergepair, Branch: 4)
-* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Merge-Pair-Pastry/screenshots/) (৮টি আল্ট্রা ৩ডি পপ-আউট কার্ড: সি-সাইড প্যাটসেরি হোম ও স্ট্রবেরি ম্যাকারন পপ-আউট, স্লাইড অ্যান্ড ম্যাচ ও পেস্ট্রি গ্লাইডিং, সার্ভ ১০০ অর্ডারস ও লেমন টার্ট টিকেট, জুবিলি কেক ৩-টায়ার মাল্টিপ্লায়ার, শেফস রেসিপি বুক ও ৯টি সিক্রেট পেস্ট্রি, চেইন কম্বো ক্যাসকেড, প্ল্যান এভরি মুভ ও বিস্কুট অবস্ট্যাকলস, ১০০% অফলাইন প্লে ও ১০০ সার্ভিস স্টেজ)
-* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Merge-Pair-Pastry/raw_captures/) (১৩৯টি লাইভ সোয়াইপ ও গেমপ্লে ফ্রেম, টেস্ট আর্কিটেকচার ও অফিসিয়াল পিয়ার স্টোর ক্যাপচার)
+* **ASO স্ক্রিনশট সেট**: [screenshots](file:///D:/souravshuvo.github.io/game_store_assets/Merge-Pair-Pastry/screenshots/) (৮টি ৩ডি টুইন-টাওয়ার 1080×1920 কার্ড: সী-সাইড প্যাটসেরি হোম ও ৯ পেস্ট্রি স্প্রাইট পপ-আউট, ম্যাকারন স্লাইড অ্যান্ড ম্যাচ, লেমন টার্ট অর্ডার, বিস্কুট অবস্ট্যাকল বোর্ড, টিকেট ১০০ জুবিলি কেক, ৯ রেসিপি বুক, `Order served!` ভিক্টরি ও অটো-সেভ রিজিউম)
+* **র লাইভ ফ্রেম**: [raw_captures](file:///D:/souravshuvo.github.io/game_store_assets/Merge-Pair-Pastry/raw_captures/) (৮টি 1220×2712 রিয়েল-টাইম Motorola Edge 50 লাইভ ক্যাপচার)
 * **আইকন ও ব্যানার**: অফিশিয়াল 512×512 আইকন (SHA256: `df908faecd357d0f597f4b55fc1f54ea96b1a690a6aa757c42d43a04218e8444`) ও 1024×500 ফিচার গ্রাফিক ব্যানার
 * **ভিডিও ট্রেইলার**:
-  - [mergepair_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Merge-Pair-Pastry/videos/mergepair_trailer_portrait_9x16.mp4) (1080p মোবাইল পোর্ট্রেট, ১.৩৫x আর্কেড পেস, slide/land/merge/serve/close অরিজিনাল অডিও, অ্যাকশন পপআপ ও গুগল প্লে এন্ডকার্ড)
-  - [mergepair_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Merge-Pair-Pastry/videos/mergepair_trailer_landscape_16x9.mp4) (সিনেমাটিক ডুয়াল-ক্যামেরা ল্যান্ডস্কেপ ১৬:৯ প্রোমো)
+  - [mergepair_trailer_portrait_9x16.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Merge-Pair-Pastry/videos/mergepair_trailer_portrait_9x16.mp4) (1080×1920, 17.5s, ফোনের আসল জুবিলি টিকেট ১০০ স্লাইড-মার্জ গেমপ্লে, `44100Hz` স্টিরিও `slide/land/merge/serve` অরিজিনাল অডিও `-27.9 dB`, Google Play এন্ডকার্ড)
+  - [mergepair_trailer_landscape_16x9.mp4](file:///D:/souravshuvo.github.io/game_store_assets/Merge-Pair-Pastry/videos/mergepair_trailer_landscape_16x9.mp4) (1920×1080, 17.5s, ল্যান্ডস্কেপ প্রোমো)
 
 ---
 
